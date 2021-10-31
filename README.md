@@ -1,11 +1,10 @@
-# arc-eager-transition-based-parser
-Arc-eager Transition-based Parser with Averaged-Perceptron
 ***Arc-eager Transition-based Parser with Averaged-Perceptron***
 *Statistical Dependency Parsing project in IMS, Uni-Stuttgart*
 *Ching-Yi Chen, 22.Feb.2021*
 
 
 *Code documentation:
+
     1. utils.py->
         Sentence: store all information for each token in one sentence
         Reader: read sentences from dataset and build them into sentence structure
@@ -27,16 +26,19 @@ Arc-eager Transition-based Parser with Averaged-Perceptron
 
 
 *USAGE:
+
     python3 main.py --model [model/baseline_model] --language [englsih/deutsch] --process [train/test/dev] --file_path [file_path]
     ***Firstly you need to train the model, and then you will get model_english and model_deutsch. Finally, you can evaluate and predict.
 
 *How to implement the Arc-eager transition-based parser?
+
     Train -> Print the accuracy every 10000 state
     Dev -> print dev accuracy for evaluation
     Test -> The system will compute the result file
 
 
 *Note:
+
     baseline model dose not included in this package, baseline model is only used for experiments
     some extended feature only used for experiment did not include in this package (e.g. morph feature)
 
