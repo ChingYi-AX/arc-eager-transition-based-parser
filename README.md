@@ -1,5 +1,7 @@
-***Arc-eager Transition-based Parser with Averaged-Perceptron***
+# Arc-eager Transition-based Parser with Averaged-Perceptron #
+
 *Statistical Dependency Parsing project in IMS, Uni-Stuttgart*
+
 *Ching-Yi Chen, 22.Feb.2021*
 
 
