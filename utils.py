@@ -18,7 +18,7 @@ class Sentence:
         self.empty_2 = []
 
 
-'''Reader: read sentences from dataset and build them into sentence structure'''
+"""Reader: read sentences from dataset and build them into sentence structure"""
 
 
 class Reader:
@@ -81,7 +81,7 @@ class Reader:
                 sentence_info = Sentence()  # empty sentence_info for next sentence
 
 
-""" Evaluation: evaluate LAS and UAS """
+"""Evaluation: evaluate LAS and UAS"""
 
 
 def evaluation(pred_path, gold_path, process, language):
